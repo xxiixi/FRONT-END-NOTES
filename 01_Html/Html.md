@@ -434,7 +434,7 @@
 
 #### 25. 如何减少回流？（浏览器绘制过程）
    ```
-    （1）使用 transform 替代 top
+    （1）使用 transform 替代 top; 使用 visibility: hidden 替代 display: none；
 
     （2）不要把节点的属性值放在一个循环里当成循环里的变量
 
@@ -1164,4 +1164,5 @@
    ```
    详细资料可以参考：
    [《协议相对 URL》](https://www.ludou.org/the-protocol-relative-url.html)
+
    [《Why you need protocol-relative URLs *now*》](https://www.tuicool.com/articles/nEjU7b)
